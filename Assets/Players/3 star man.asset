@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3 star man
   m_EditorClassIdentifier: 
   Name: 3 star
-  sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  sprite: {fileID: 21300000, guid: 168ebc264e167ac4fb6c5ad177aa4671, type: 3}
   rarity: 0
   retired: 0
   team: Liquid

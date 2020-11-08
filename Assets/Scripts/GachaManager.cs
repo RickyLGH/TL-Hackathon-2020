@@ -13,14 +13,18 @@ public class GachaManager : MonoBehaviour
 
     public void Pull()
     {
+        if(GameManager.Instance.player != null)
+        {
+            GameManager.Instance.player.SetActive(false);
+        }
+
         int number = Random.Range(1, 1000);
-        Debug.Log(number);
-        Debug.Log("pulled");
+
         if (number <= 600)
         {
             GameManager.Instance.Summon(Gachamachine.gachapool[0]);
         }
-        if(number <= 950)
+        else if(number <= 950)
         {
             GameManager.Instance.Summon(Gachamachine.gachapool[1]);
         }
@@ -28,7 +32,6 @@ public class GachaManager : MonoBehaviour
         {
             GameManager.Instance.Summon(Gachamachine.gachapool[2]);
         }
-
    
     }
 }
