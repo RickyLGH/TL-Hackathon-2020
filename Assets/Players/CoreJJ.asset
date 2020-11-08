@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CoreJJ
   m_EditorClassIdentifier: 
   Name: CoreJJ
-  sprite: {fileID: 21300000, guid: 91644f1b3304ac442b4ab18505c8f27b, type: 3}
+  sprite: {fileID: 21300000, guid: 337bfa2e151356048958d79e6c8bb713, type: 3}
   rarity: 5
   retired: 0
-  team: Liquid
-  position: Support
+  team: liquid
+  position: supp

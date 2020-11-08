@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 68d2522f42c71c745b98a03c46b34cd7, type: 3}
-  m_Name: 3 star man
+  m_Name: Dhokla
   m_EditorClassIdentifier: 
-  Name: 3 star
-  sprite: {fileID: 21300000, guid: 168ebc264e167ac4fb6c5ad177aa4671, type: 3}
-  rarity: 0
+  Name: Dhokla
+  sprite: {fileID: 21300000, guid: 9e0554f0e78388b4ead708abe032c89c, type: 3}
+  rarity: 3
   retired: 0
-  team: Liquid
-  position: Fill
+  team: tsm
+  position: top

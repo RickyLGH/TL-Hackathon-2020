@@ -27,6 +27,7 @@ public class GachaManager : MonoBehaviour
         else if(number <= 950)
         {
             GameManager.Instance.Summon(Gachamachine.gachapool[1]);
+
         }
         else
         {

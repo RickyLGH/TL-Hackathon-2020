@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerpool:
   - {fileID: 11400000, guid: a15db95284c83e948be51bffa7a0fffd, type: 2}
+  - {fileID: 11400000, guid: 8f2abc46905bedb4db02751d6017317b, type: 2}
+  - {fileID: 11400000, guid: 7e0a30f58c8910741a1455d089a5552c, type: 2}
+  - {fileID: 11400000, guid: 245fe25b832508749b1918593de8b49e, type: 2}
+  - {fileID: 11400000, guid: e2dc08a3f05b186478ac0f9ac58bd461, type: 2}
+  - {fileID: 11400000, guid: d5eaf8acbf04f4a4f92ca6b7b307052a, type: 2}
+  - {fileID: 11400000, guid: 5e6357e2f940b1f4589c8d5a4898635a, type: 2}

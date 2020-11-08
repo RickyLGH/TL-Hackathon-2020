@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4978085783451023447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4978085783451023443}
+  - component: {fileID: 4978085783451023440}
+  - component: {fileID: 4978085783451023441}
+  - component: {fileID: 4978085783451023446}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978085783451023443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978085783451023447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4978085783451023440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978085783451023447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f300555a8992734fac5bad472f73236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gachamachine: {fileID: 11400000, guid: d9d0fb0ebb5458044ac1a4764be8ed9b, type: 2}
+--- !u!114 &4978085783451023441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978085783451023447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b43e6d005442ac479eabf825c83fd31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playertemplate: {fileID: 6003738763633131240, guid: beb2e1bfc3ccc4a4e8c6f0c87558e927,
+    type: 3}
+  player: {fileID: 0}
+  text: {fileID: 0}
+  starthree: {fileID: 0}
+  starfour: {fileID: 0}
+  starfive: {fileID: 0}
+  roletop: {fileID: 0}
+  rolejgl: {fileID: 0}
+  rolemid: {fileID: 0}
+  rolebot: {fileID: 0}
+  rolesupp: {fileID: 0}
+  hundredthieves: {fileID: 0}
+  tl: {fileID: 0}
+  tsm: {fileID: 0}
+  eg: {fileID: 0}
+  gg: {fileID: 0}
+  fq: {fileID: 0}
+  clg: {fileID: 0}
+  cnine: {fileID: 0}
+  imt: {fileID: 0}
+  dg: {fileID: 0}
+  collection: []
+  top: []
+  jg: []
+  mid: []
+  bot: []
+  supp: []
+--- !u!114 &4978085783451023446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4978085783451023447}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f1bf0e6d690c5c4f8ccd4585110cdf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

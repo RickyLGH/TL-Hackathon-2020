@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Jensen
   m_EditorClassIdentifier: 
   Name: Jensen
-  sprite: {fileID: 21300000, guid: bbe350a0748c32048bf335613877d9bf, type: 3}
+  sprite: {fileID: 21300000, guid: 525af681dae3dd44b9b2a8da2c2b606e, type: 3}
   rarity: 4
   retired: 0
-  team: Liquid
-  position: Mid
+  team: liquid
+  position: mid

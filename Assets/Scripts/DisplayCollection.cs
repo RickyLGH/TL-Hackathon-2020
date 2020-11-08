@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DisplayCollection : MonoBehaviour
 {
     public Image images;
-    public Text list3;
-    public Text list4;
-    public Text list5;
+   
+    public TextMeshProUGUI list3;
+    public TextMeshProUGUI list4;
+    public TextMeshProUGUI list5;
+    
     List<Sprite> spritelist = new List<Sprite>();
 
     List<string> threenames = new List<string>();
@@ -17,26 +20,26 @@ public class DisplayCollection : MonoBehaviour
 
     public void Start()
     {
-        Display();
+       
     }
 
-    public void Display()
+    public void OnEnable()
     {
         foreach(GameObject p in GameManager.Instance.collection)
         {
-            var stats = p.GetComponent<Player>();
+            var pro = p.GetComponent<Player>();
             
-            if(stats.stats.rarity == 3)
+            if(pro.stats.rarity == 3)
             {
-                threenames.Add(stats.stats.name);
+                threenames.Add(pro.stats.name);
             }
-            if (stats.stats.rarity == 4)
+            if (pro.stats.rarity == 4)
             {
-                fournames.Add(stats.stats.name);
+                fournames.Add(pro.stats.name);
             }
-            if (stats.stats.rarity == 5)
+            if (pro.stats.rarity == 5)
             {
-                fivenames.Add(stats.stats.name);
+                fivenames.Add(pro.stats.name);
             }
             //spritelist.Add(data.sprite);
         }
@@ -62,5 +65,15 @@ public class DisplayCollection : MonoBehaviour
         {
             list5.text = list5.text + " " + name;
         }
+    }
+
+    public void OnDisable()
+    {
+        threenames.Clear();
+        fournames.Clear();
+        fivenames.Clear();
+        list3.text = "3 star: ";
+        list4.text = "4 star: ";
+        list5.text = "5 star: ";
     }
 }
