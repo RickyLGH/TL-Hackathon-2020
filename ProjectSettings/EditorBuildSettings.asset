@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 4062b6ded18659b4a82baeff7e098c42
   - enabled: 1
@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StartScreen.unity
     guid: a76094f0ba8bee84ebe800ad0072afef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameSim.unity
     guid: 1347246d805e31f47a0817a7b4f87fa4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Collection.unity
     guid: c369214e01f13fa46a30ce861d6aee5b
   m_configObjects: {}

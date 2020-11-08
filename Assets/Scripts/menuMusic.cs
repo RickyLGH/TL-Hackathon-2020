@@ -16,7 +16,13 @@ public class menuMusic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
+
+        int width = 1280;
+        int height = 720;
+
+        bool isFullScreen = false;
+        int desiredFPS = 60;
+        Screen.SetResolution(width, height, isFullScreen, desiredFPS);
 
         musicList[0] = songName1;
         musicList[1] = songName2;
