@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
             {
                 _instance = GameObject.FindObjectOfType<GameManager>();
             }
-
             return _instance;
         }
     }

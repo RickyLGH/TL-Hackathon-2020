@@ -19,6 +19,6 @@ public class Back : MonoBehaviour
 
     public void Switch()
     {
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene("Collection");
     }
 }
