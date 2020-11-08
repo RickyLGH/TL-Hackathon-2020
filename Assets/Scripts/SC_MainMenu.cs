@@ -8,22 +8,16 @@ public class SC_MainMenu: MonoBehaviour
     public GameObject GachaMenu;
 	public GameObject CollectionMenu;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        MainMenuButton();
-    }
-
-    public void PlayNowButton()
+    private void PlayNowButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameLevel");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameSim");
     }
 
     public void GachaButton()
     {
         // Show Credits Menu
+		Debug.Log("Gacha Menu Loaded");
         MainMenu.SetActive(false);
         GachaMenu.SetActive(true);
 		CollectionMenu.SetActive(false);
@@ -32,6 +26,7 @@ public class SC_MainMenu: MonoBehaviour
     public void MainMenuButton()
     {
         // Show Main Menu
+		Debug.Log("Start Menu Loaded");
         MainMenu.SetActive(true);
         GachaMenu.SetActive(false);
 		CollectionMenu.SetActive(false);
@@ -40,6 +35,7 @@ public class SC_MainMenu: MonoBehaviour
 	public void CollectionButton()
     {
         // Show Main Menu
+		Debug.Log("Collection Menu Loaded");
         MainMenu.SetActive(false);
         GachaMenu.SetActive(false);
 		CollectionMenu.SetActive(true);
